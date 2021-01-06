@@ -1,0 +1,11 @@
+.item {
+  padding: 20px 0;
+  font-weight: 300;
+  text-align: center;
+  list-style: none;
+  color: white;
+}
+
+.authorName {
+  font-weight: bold;
+}

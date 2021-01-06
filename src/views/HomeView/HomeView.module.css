@@ -1,0 +1,12 @@
+.title {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}

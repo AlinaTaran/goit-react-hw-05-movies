@@ -1,0 +1,76 @@
+.wrapper {
+  padding-top: 10px;
+  display: flex;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #2a363b;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+a {
+  color: white;
+}
+
+.link {
+  margin-right: 24px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.activeLink {
+  composes: link;
+  color: lightgray;
+  text-decoration: underline;
+}
+
+.poster {
+  max-width: 320px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.info {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+}
+
+.genre {
+  composes: info;
+  display: flex;
+  align-items: center;
+}
+
+.genre li:not(:last-child)::after {
+  margin-right: 5px;
+}
+
+.genreList {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.description {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.rating {
+  color: white;
+  font-style: italic;
+}
